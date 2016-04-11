@@ -5,11 +5,23 @@ header{
     padding: 10px;	
 }
 
-/* h1{
+section{
+	border: 2px solid white;
+	margin: 50px auto auto auto;
+	width: 800px;
+	padding: 10px;
+	background-color: black;
 	color: white;
-}*/
+	text-align: left;
+	
+}
+
 
 body{
 	background-image: url("/sites/crispy-octo-parakeet/images/body_background.jpg");
 	background-color: black;
+}
+
+.clicked{
+	color: red;
 }
