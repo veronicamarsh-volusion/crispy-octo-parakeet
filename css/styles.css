@@ -21,6 +21,7 @@ section{
 body{
 	background-image: url("/sites/crispy-octo-parakeet/images/body_background.jpg");
 	background-color: black;
+	font-family: arial, verdana;
 }
 
 .clicked{
