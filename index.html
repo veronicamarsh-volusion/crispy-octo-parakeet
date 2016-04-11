@@ -6,25 +6,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 <link href="css/styles.css" rel="stylesheet">
 
-<!--<style> 
-h1{
-color: red
-}
-</style>-->
+
 
 </head>
 <body>
 	<header>
-		<h1>Learning Stuff Site</h1>
+		<h1 class="headings">Learning Stuff Site</h1>
 
 	</header>
+	<section>
+	
+		<h2 class="headings">What have we done?</h2>
+		<p>So far we have created a repository and added and cloned it to GitHub on the computer. We have also created an index.html and styles.css file to get started with coding.</p>
+		<p>The HTML file requires the doctype, html, head, and body tags. Additionally, it is important to define the character set with a meta tag.</p>
+		<p>In order for the correct styles to be applied to the page, the styles.css file needs to be specified in the index.html file with the link tag.</p>
+		
+	
+		<h2 class="headings">Committing!</h2>
+		<ul>
+			<li>git status - used to see the status of the files in the repo</li>
+			<li>git add &lt;file&gt; - used to commit specific files to the repo</li>
+			<li>git add -A -used to commit ALL files to the repo</li>
+			<li>git commit -m &quot;message here&quot; - used to add a commit message</li>
+		</ul>
+		
+	</section>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-	<script>
-	$("h1").on("click", function() {
+	<!--<script>
+	$(".headings").on("click", function() {
 		$(this).css("color", "red")
-	})
+		})
+	</script>-->
+	
+	<script>
+	$(".headings").on("click", function() {
+		$(this).toggleClass("clicked")
+		})
 	</script>
 
 </body>
