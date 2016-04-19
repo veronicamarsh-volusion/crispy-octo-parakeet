@@ -2,6 +2,6 @@
 //		$(this).css("color", "red")
 //		})
 
-$(".headings").on("click", function() {
+/*$(".headings").on("click", function() {
 		$(this).toggleClass("clicked")
-		})
+		})*/
