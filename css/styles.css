@@ -5,39 +5,137 @@ body{
 }
 
 header{
-	border: 2px solid white;
-	background-color: black;
+	
+	background-color: rgba(0,0,0, 0.6);
     color: white;
     text-align: center;
     padding: 10px;	
 }
 
-section{
-	border: 2px solid white;
+/*nav{
+	float: right;
+	font-weight: bold;
+}
+
+	nav ul li{
+		display: inline;
+		margin: 10px;	
+	}
+
+	nav a{
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+	}
+	
+	nav a:hover{
+		color: red;
+	}
+	
+	nav ul ul{
+		display: none;
+	}
+
+	*/
+	
+.hero{
+	width: 75%;
+	height: auto;
+}
+
+main{
 	margin: 50px auto auto auto;
 	width: auto;
-	padding: 50px;
-	background-color: black;
+	padding: 10px;
+	background-color: rgba(0,0,0, 0.6);
+	color: white;	
+}	
+
+section{
+	
+	margin: 10px auto auto auto;
+	width: auto;
+	padding: 10px;	
 	color: white;
-	text-align: left;
+	text-align: center;
 	
 }
 
-article{
-	border: 2px solid white;
-	margin: 50px auto auto auto;
-	width: auto;
-	padding: 50px;
-	background-color: black;
-	color: white;
-	text-align: left;
+section ul li{
+	display: inline;
+	margin: 45px;
 }
+
 .headings{
-	color: green;
+	color: white;
 }
 .headings:hover{
 	cursor: pointer;
 }
 .clicked{
 	color: red;
+}
+
+/*stuff for nav dropdowns...*/
+
+nav{
+	margin-top:10px;
+	float: right;
+	font-weight: bold;
+}
+
+nav ul{
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0
+}
+
+nav ul a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+}
+
+nav ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+nav ul li.current-menu-item{
+	background:#ddd
+}
+
+nav ul li:hover{
+	background:#f6f6f6
+}
+
+nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+nav ul ul li{
+	float:none;
+	width:200px
+}
+
+nav ul ul a{
+	line-height:120%;
+	padding:10px 15px
+}
+
+nav ul li:hover > ul{
+	display:block
 }
